@@ -1,0 +1,32 @@
+.todolist-main {
+
+    .input-actions-holder {
+        display: flex;
+        justify-content: space-between;
+
+        button {
+            margin-right: 5px;
+        }
+    }
+
+    .todoInput {
+        margin-right: 5px;
+    }
+
+    .todoList-container {
+        margin-top: 10px;
+    }
+    .todo-item-container {
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: space-between;
+
+        span {
+            margin-right: 10px;
+        }
+
+        button:first-child{
+            margin-right: 5px;
+        }
+    }
+}

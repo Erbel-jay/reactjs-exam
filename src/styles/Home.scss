@@ -1,0 +1,32 @@
+.home-main {
+    display: grid;
+    row-gap: 10px;
+
+    .input-container {
+        display: flex;
+        justify-content: space-between;
+
+        input {
+            width: 500px;
+            height: 30px;
+            margin-right: 10px;
+        }
+
+        button {
+            width: 100px;
+            height: 36px !important;
+        }
+    }
+
+
+    button {
+        height: 40px
+    }
+
+    .differences-container {
+
+        div {
+            margin-bottom: 10px;
+        }
+    }
+}
